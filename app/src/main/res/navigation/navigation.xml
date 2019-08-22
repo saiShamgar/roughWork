@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation"
+            app:startDestination="@id/mensClothsFragment">
+    <fragment android:id="@+id/mensClothsFragment" android:name="com.example.roughwork.fragments.MensClothsFragment"
+              android:label="fragment_mens" tools:layout="@layout/fragment_mens"/>
+    <fragment android:id="@+id/mensDesignsFragment" android:name="com.example.roughwork.fragments.MensDesignsFragment"
+              android:label="fragment_mens_designs" tools:layout="@layout/fragment_mens_designs"/>
+    <fragment android:id="@+id/womensClothsFragment" android:name="com.example.roughwork.fragments.WomensClothsFragment"
+              android:label="fragment_womens" tools:layout="@layout/fragment_womens"/>
+    <fragment android:id="@+id/womensDesignsFragment"
+              android:name="com.example.roughwork.fragments.WomensDesignsFragment"
+              android:label="fragment_womens_designs" tools:layout="@layout/fragment_womens_designs"/>
+</navigation>
